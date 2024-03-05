@@ -16,7 +16,7 @@ import com.github.benmanes.caffeine.cache.Caffeine;
 @Configuration
 public class CacheConfig {
 
-    @Bean
+    /*@Bean
     public CacheManager cacheManager() {
         List<CaffeineCache> caches = Arrays.stream(CacheType.values())
                 .map(cache -> new CaffeineCache(cache.getCacheName(), Caffeine.newBuilder().recordStats()
@@ -31,6 +31,6 @@ public class CacheConfig {
         cacheManager.setCaches(caches);
 
         return cacheManager;
-    }
+    }*/
 
 }

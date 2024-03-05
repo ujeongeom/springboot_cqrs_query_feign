@@ -38,6 +38,7 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-cache</artifactId>
 		</dependency>
+
 		<!-- caffeine cache -->
 		<dependency>
 			<groupId>com.github.ben-manes.caffeine</groupId>
@@ -128,6 +129,14 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-aop</artifactId>
 		</dependency>
+
+		<!-- Redis -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-redis</artifactId>
+			<version>3.2.3</version>
+		</dependency>
+
 		<!-- Jwt Token -->
 		<!--dependency>
 			<groupId>io.jsonwebtoken</groupId>
@@ -184,12 +193,6 @@
 		    <artifactId>micrometer-registry-prometheus</artifactId>
 		</dependency>
 
-	         <!-- https://mvnrepository.com/artifact/co.elastic.apm/elastic-apm-agent -->
-		<dependency>
-		    <groupId>co.elastic.apm</groupId>
-		    <artifactId>elastic-apm-agent</artifactId>
-		    <version>1.43.0</version>
-		</dependency>	
 	</dependencies>
 
 	<build>
