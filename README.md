@@ -9,6 +9,7 @@
   - aop 추가
 - TestCase 추가
 - query 부분만 가져옴
+- openfeign 추가
 
 local : SpringBoot + JWT + H2  
 
