@@ -30,6 +30,10 @@ spring:
         prepStmtCacheSize: 250
         prepStmtCacheSqlLimit: 2048
         useServerPrepStmts: true
+
+#feign api
+api:
+  edu.url: https://jsonplaceholder.typicode.com # http://localhost:8081/
         
 # spring boot - actuator expose
 management:
